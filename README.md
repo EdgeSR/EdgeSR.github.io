@@ -1,1 +1,1 @@
-# streamingt2v.github.io
+# EdgeSR.github.io
