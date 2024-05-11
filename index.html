@@ -104,5 +104,51 @@
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The advent of diffusion models in image super-resolution (SR) has marked a transformative era in generating high-fidelity, high-resolution images from lower-resolution counterparts.
+            However, traditional approaches to diffusion-based SR have grappled with significant challenges,noticeable degradation of image quality, producing outputs that lack sharpness and detail.
+            Thus, our research presents a novel plug-and-play module for any diffusion-based image super-resolution (SR) method, which improves image details by incorporating an edge detection algorithm into the reverse
+            diffusion process.During each denoising step in the reverse diffusion process, we utilize edge map to guide the the image reconstruction towards preserving and emphasizing these key details. This targeted guidance helps in enhancing the
+            sharper and more defined edges that are pivotal for high-quality HR images.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <video id="teaser" autoplay muted loop playsinline height="100%"> -->
+    <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 height="100%">
+      <source src="./static/videos/main_video_compressed.mp4"
+              type="video/mp4">
+    </video>
+
+    <!--/ Paper video. -->
+  </div>
+</section>
+
 </body>
 </html>
