@@ -151,13 +151,61 @@
 <section class="section" id="Results">
   <div class="container is-max-desktop content">
     <h2 class="title">Results</h2>
-    <section class="hero method">
+    
+    <!-- Quantitative Results Subsection -->
+    <section class="subsection" id="QuantitativeResults">
       <div class="container is-max-desktop">
+        <h3 class="subtitle">Quantitative Results</h3>
+        <!-- Add your quantitative results content here -->
+        <div>
+          <!-- Example table or other quantitative results content -->
+          <table class="table is-striped is-fullwidth">
+            <thead>
+              <tr>
+                <th>Methods</th>
+                <th>PSNR &uarr;</th>
+                <th>SSIM &uarr;</th>
+                <th>LPIPS &uarr;</th>
+                <th>CLIPIQA</th>
+                <th>ESSIM &uarr;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ResShift</td>
+                <td>31.4</td>
+                <td>0.76</td>
+                <td>0.069</td>
+                <td>0.936</td>
+                <td>0.73</td>
+              </tr>
+              <tr>
+                <td>EdgeSR</td>
+                <td><strong>31.66</strong></td>
+                <td><strong>0.77</strong></td>
+                <td><strong>0.085</strong></td>
+                <td>0.936</td>
+                <td><strong>0.76</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Due to resource limitations, comparisons on the ImageNet dataset could not be performed.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Visual Results Subsection -->
+    <section class="subsection" id="VisualResults">
+      <div class="container is-max-desktop">
+        <h3 class="subtitle">Visual Results</h3>
         <div class="hero-body">
           <img id="method" src="static/images/result.jpg" style="width:100%; height:auto;" alt="Description of the image">
-            <p style="text-align: center;">
-               <strong>Comparative visual results showcasing the improvements of our EdgeSR method over the ResShift method.</strong>
-            </p>
+          <p style="text-align: center;">
+            <strong>Comparative visual results showcasing the improvements of our EdgeSR method over the ResShift method.</strong>
+          </p>
+          <p style="text-align: center;">
+            For a clearer view, please enlarge the image.
+          </p>
         </div>
       </div>
     </section>
